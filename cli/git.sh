@@ -5,6 +5,7 @@ set -e
 
 printf "Installing git...\n"
 brew install git
+brew install pre-commit
 
 # Setup Git configuration.
 printf "Configuring git...\n"
