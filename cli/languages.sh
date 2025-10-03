@@ -8,6 +8,7 @@ mise use --global shellcheck
 
 printf "Installing Node.js...\n"
 mise use --global nodejs
+mise use --global pnpm
 
 printf "Installing Python...\n"
 mise use --global python
