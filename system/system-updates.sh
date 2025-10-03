@@ -10,3 +10,4 @@ read -p "Confirm no system update is pending then press enter to continue."$'\n'
 printf "Checking for software updates...\n"
 
 softwareupdate --install --all
+softwareupdate --install-rosetta
