@@ -74,7 +74,7 @@ zsh-users/zsh-history-substring-search
 echo '# pure setup
 PURE_CMD_MAX_EXEC_TIME=1
 autoload -Uz promptinit && promptinit && prompt pure
-PROMPT='%F{white}%*'
+PROMPT='%F{white}%* '$PROMPT
 ' >> "$HOME/.zshrc"
 
 # Setup completion
